@@ -87,9 +87,7 @@ VENV_PY = r"C:\Users\Win\Documents\python-core\Scripts\python.exe"
 
 ## Limitations
 
-* Only detects **top-level imports** (`import X` or `from X import Y`)
-* Does not detect **dynamic imports** (e.g., `__import__()`)
-* Package names must match the installed PyPI package name exactly (some imports like `PIL` → `Pillow` may need manual mapping)
+* Package names must match the installed PyPI package name exactly (some imports like `PIL` → `Pillow` may need manual mapping inside ice.py file)
 * Designed for **Windows CMD**; may need minor changes for Linux/macOS
 
 ---
