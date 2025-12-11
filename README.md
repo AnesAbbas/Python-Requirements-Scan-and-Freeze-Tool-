@@ -1,9 +1,3 @@
-# Python-Requirements-Scan-and-Freeze-Tool-Here’s a clean, professional **README** for your `ice` tool:
-
----
-
-# ice
-
 `ice` is a Python utility that scans a project directory for top-level imports, matches them with packages installed in a specified Python virtual environment, and generates a `requirements.txt` file. It can be run from **any project folder** in Windows Command Line.
 
 ---
@@ -101,7 +95,3 @@ VENV_PY = r"C:\Users\Win\Documents\python-core\Scripts\python.exe"
 MIT License — free to use and modify.
 
 ---
-
-If you want, I can also make a **one-page README with usage diagram and example project output** so it looks more professional for sharing.
-
-Do you want me to do that?
