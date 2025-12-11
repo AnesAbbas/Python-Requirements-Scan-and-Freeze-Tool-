@@ -36,8 +36,12 @@
    Create `ice.bat` in the same folder:
 
    ```bat
-   @echo off
-   "C:\Users\Win\Documents\python-core\Scripts\python.exe" "C:\Users\Win\Documents\scripts\ice.py"
+    @echo off
+    :: Get the directory where this BAT file lives
+    set SCRIPT_DIR=%~dp0
+
+    :: Call Python from PATH and run genreq.py inside this same directory
+    python "%SCRIPT_DIR%ice.py"
    ```
 
 3. **Add folder to PATH**
